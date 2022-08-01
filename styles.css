@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Changa:wght@200;400;600;800');
+
+/*------------- GAME STYLES -----------------*/
+body{
+    /*background-color: #c2d5e5;
+    background-color: #065a9c;
+    background-color: #0078bc;
+    background-color: #c5a44d;
+    background-color: #f2ea9d;
+    background-color: #b42521;
+    background-color; #282524;*/ 
+    background-color: #065a9c;
+    font-family: 'Changa', sans-serif;
+    color: #c2d5e5;
+}
+
+/*------------- TITLE STYLES -----------------*/
+.title{
+    color: #282524;
+    font-size: 80px;
+    margin-block-end: 0;
+    margin-block-start: 20px;
+}
+
+.subtitle{
+    font-size: 32px;
+    margin-block-end: 5px;
+    font-weight: 600;
+}
+
+/*------------- MOKEPON CARD STYLES-----------------*/
+#select-pet{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cards-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.mokepon-card{
+    width: 200px;
+    height: 100px;
+    padding: 10px;
+    background-color: #c2d5e5;
+    box-sizing: border-box;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: #282524;
+    cursor: pointer;
+}
+
+.mokepon-card img{
+    width: 80px;
+}
+
+.mokepon-card p{
+    font-size: large;
+    font-weight: 400;
+}
+
+input{
+    display: none;
+}
+
+#button-pet{
+    width: 150px;
+    background-color: #b42521;
+    color: #c2d5e5;
+    font-family: 'Changa', sans-serif;
+    font-weight: 600;
+    font-size: large;
+    padding: 5px;
+    margin-block-start: 45px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+/*------------- MOKEPON ATTACK STYLES-----------------*/
+#select-attack{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-mokepon-attack{
+    background-color: #c2d5e5;
+    width: 120px;
+    height: 40px;
+    border-radius: 10px;
+    border: 0;
+    font-family: 'Changa', sans-serif;
+    font-size: large;
+    font-weight: 400;
+    padding: 2px 10px;
+    margin: 0 2px;
+    cursor: pointer;
+}
+
+/*------------- MOKEPON MESSAGES CARD STYLES-----------------*/
+#messages{
+    background-color: #282524;
+    width: 300px;
+    height: 40px;
+    border-radius: 20px;
+    font-size: large;
+    font-weight: 400;
+    padding: 10px;
+    color: #c2d5e5;
+    margin-top: 18px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#button-restart{
+    width: 150px;
+    background-color: #b42521;
+    color: #c2d5e5;
+    font-family: 'Changa', sans-serif;
+    font-weight: 600;
+    font-size: large;
+    padding: 5px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    margin-top: 45px;
+}
